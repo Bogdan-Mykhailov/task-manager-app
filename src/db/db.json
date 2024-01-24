@@ -1,74 +1,25 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "Завдання 1",
-      "description": "Опис завдання 1",
+      "title": "Eat",
+      "description": "eat something",
       "status": true,
-      "dueDate": "2024-01-31"
+      "dueDate": "2024-01-25",
+      "id": "f.3326.19320.2090ac.4799b53.34bfaca8.93cdbbc27.543671e69a.1b5699b951-2.506a903e19ca.26b340db1cdb0.095470ff1c371.cf8259c0c7fb-49.cf3a6e13d6487.36dede6cc5d7a.047a89fb3289-36.878f40d3c73dd.4b3fce4d41342.56f373348c31-1.e6971df6b85d3.2c64c13802ef1.5fe5272a2f3cb.875973e9b3586.1ec6b98cff077.96b6341e5e667.6a1c2dc4d8cb0.f1c7201ada8c5.bd01044db388e.ee10f745a8e87.a3ddb9e193c19.632da05dc893"
     },
     {
-      "id": 2,
-      "title": "Завдання 2",
-      "description": "Опис завдання 2",
-      "status": false,
-      "dueDate": "2024-02-10"
-    },
-    {
-      "id": 3,
-      "title": "Завдання 3",
-      "description": "Опис завдання 3",
+      "title": "sleep",
+      "description": "",
       "status": true,
-      "dueDate": "2024-03-15"
+      "dueDate": "2024-01-26",
+      "id": "7.5a10.4396f.f25ef4.99b4b2d.a8ff258e.0eb74c8a.78879bbda8.fa391f181a-0.e3f396c292ac.2d3b2469e543f.ad22f2c7d34cd.99f68e33d436-48.a7f9f7265825b.f23ddd986073e.6caeba72d671-36.711728530a1ce.51c24829dbea.a811251180ad-3.16b24fdec6b99.d013a0dd682b7.f40e3a6555680.cb4fbddeaa695.9992654da0fac.e80c5375a647c.0c732afbd34e2.22f5c58d159ac.fc5a05a5b7fa8.cb3dcc2b2acf.9c3cf756b24e7.923053af413f"
     },
     {
-      "id": 4,
-      "title": "Завдання 4",
-      "description": "Опис завдання 4",
+      "id": "f.cc79.81275.d7eba7.395cfda.be893eab.e29616cbb.4aab922d79.7bd279a7d5-9.774ea88c66b5.9c44ef21ba76f.f2801e33155e3.edc3a1060dc9-47.7c4514c600490.2f29a97d5aabf.a10251e4da8b-32.e90c3a6355f6.716969c38ec92.a1982c73fe64-7.f837265188169.4a99b826683e3.b2e7ba009cfe0.f33e54168a553.7427606bfe5d9.b153d46c96461.664a97467687a.0bd225b99e1ab.74cea032a74d9.f04f711ea6938.b5d1d462a28ab.58ff543ac2a3",
+      "title": "🇺🇦",
+      "description": "",
       "status": false,
-      "dueDate": "2024-04-20"
-    },
-    {
-      "id": 5,
-      "title": "Завдання 5",
-      "description": "Опис завдання 5",
-      "status": true,
-      "dueDate": "2024-05-25"
-    },
-    {
-      "id": 6,
-      "title": "Завдання 6",
-      "description": "Опис завдання 6",
-      "status": false,
-      "dueDate": "2024-06-30"
-    },
-    {
-      "id": 7,
-      "title": "Завдання 7",
-      "description": "Опис завдання 7",
-      "status": true,
-      "dueDate": "2024-07-05"
-    },
-    {
-      "id": 8,
-      "title": "Завдання 8",
-      "description": "Опис завдання 8",
-      "status": false,
-      "dueDate": "2024-08-10"
-    },
-    {
-      "id": 9,
-      "title": "Завдання 9",
-      "description": "Опис завдання 9",
-      "status": true,
-      "dueDate": "2024-09-15"
-    },
-    {
-      "id": 10,
-      "title": "Завдання 10",
-      "description": "Опис завдання 10",
-      "status": false,
-      "dueDate": "2024-10-20"
+      "dueDate": "2024-01-26"
     }
   ]
 }

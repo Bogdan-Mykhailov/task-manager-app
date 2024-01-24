@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css';
+import s from './App.module.css';
+import { TasksList } from './components/TasksList/TasksList';
 
 export const App = () => {
   return (
-    <div>Hello, world!</div>
+    <div className={s.app}>
+      <TasksList />
+    </div>
   );
 };
