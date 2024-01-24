@@ -119,6 +119,9 @@ export const MainModal: FC<Props> = (
               }}
               >
                 <input
+                  style={{
+                    width: '220px',
+                  }}
                   type="date"
                   value={selectedDueDate}
                   onChange={
