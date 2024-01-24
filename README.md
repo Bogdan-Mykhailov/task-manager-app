@@ -34,15 +34,20 @@ Make sure you have the following prerequisites installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Bogdan-Mykhailov/task-manager-app.git
+   ```git clone https://github.com/Bogdan-Mykhailov/task-manager-app.git```
 
 2. Navigate to the project directory:
 
-  ```bash
-  cd task-manager-app
-
-
-
-##
+     ```cd task-manager-app```
   
+3. Install dependencies:
+
+   ```npm install```
+
+4. Start the development server script:
+
+   ```"concurrently \"npm run startDb\" \"npm run start-app\""```
+
+## Contributing
+
+We welcome contributions! If you would like to contribute to the project, please follow our Contribution Guidelines.
