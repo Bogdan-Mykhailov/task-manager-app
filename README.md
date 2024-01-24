@@ -1,6 +1,6 @@
 # Task Manager
 
-<a href='task-manager-app-inky.vercel.app' rel='nofollow'>
+<a href='https://task-manager-app-inky.vercel.app/' rel='nofollow'>
 <img src="https://img.shields.io/badge/Task_Manager-4e93e6?style=for-the-badge&logo=Kanban&logoColor=black" alt="board">
 </a>
 
