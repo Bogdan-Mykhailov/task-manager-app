@@ -5,10 +5,9 @@ import { TasksModel } from '../../api/tasks/model';
 
 interface Props {
   tasks?: TasksModel[];
-  onDateSelect?: (date: string) => void;
 }
 
-export const Calendar: FC<Props> = ({ tasks, onDateSelect }) => {
+export const Calendar: FC<Props> = ({ tasks }) => {
   const events = tasks?.map(task => ({
     title: task.title,
     start: task.dueDate,
@@ -17,19 +16,9 @@ export const Calendar: FC<Props> = ({ tasks, onDateSelect }) => {
   return (
     <div style={{ minHeight: '500px', minWidth: '600px' }}>
       <FullCalendar
-        selectable
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
         events={events}
-        selectAllow={(selectInfo) => {
-          const selectedStartDate = selectInfo.startStr;
-
-          if (onDateSelect) {
-            onDateSelect(selectedStartDate);
-          }
-
-          return true;
-        }}
       />
     </div>
   );
