@@ -34,7 +34,7 @@
     "startDb": "json-server --watch src/db/db.json --port 3001",
     "start-app": "react-scripts start",
     "start": "concurrently \"npm run startDb\" \"npm run start-app\"",
-    "build": "react-scripts build",
+    "build": "npm run startDb && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint . --ignore-path .gitignore",
